@@ -3,7 +3,7 @@
 # AutoUpdateHosts 一键安装脚本
 
 # 定义远程脚本文件的 URL
-SCRIPT_URL="https://raw.githubusercontent.com/Aethersailor/OpenWrt-AutoUpdateHosts/main/files/autoupdatehosts"
+SCRIPT_URL="https://raw.githubusercontent.com/CowCow-Finance/OpenWrt-AutoUpdateHosts/main/files/autoupdatehosts"
 # 定义本地脚本文件的目标路径
 SCRIPT_PATH="/etc/autoupdatehosts"
 # 定义计划任务的时间（每天凌晨4点30分）
