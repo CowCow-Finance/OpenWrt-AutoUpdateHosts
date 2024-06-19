@@ -1,3 +1,7 @@
+
+
+取消镜像加速
+
 # OpenWrt-AutoUpdateHosts  
 
 ## 脚本功能
@@ -16,7 +20,7 @@
 ### 一键安装  
 SSH 登录 OpenWrt，运行以下命令即可执行一键安装脚本（脚本下载链接已经过 GitHub Proxy 代理加速）  
 ```bash
-curl -sSL https://mirror.ghproxy.com/https://raw.githubusercontent.com/Aethersailor/OpenWrt-AutoUpdateHosts/main/install.sh | sh
+curl -sSL https://raw.githubusercontent.com/CowCow-Finance/OpenWrt-AutoUpdateHosts/main/install.sh | sh
 ```
 一键安装脚本运行时会依次执行以下功能：  
 1. 改写 dnsmasq 设置，取消忽略 hosts 的选项  
